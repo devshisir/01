@@ -5871,3 +5871,13 @@ this is all invoice page style here
 .subcollsapeLink[aria-expanded="true"]:after {
     content: "\f068";
 }
+
+input,
+textarea,
+select{
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    -o-appearance: none !important;
+    -ms-appearance: none !important;
+    appearance: none !important;
+}
